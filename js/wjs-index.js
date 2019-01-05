@@ -61,7 +61,7 @@ $(function(){
     var totalWidth=0;//总宽度
     lis.each(function(index,value){
         totalWidth=totalWidth+$(value).innerWidth();
-        // console.log($(value).innerWidth());
+        console.log($(value).innerWidth());
         /*获取宽度的方法的说明：
         * width():它只能得到当前元素的内容的宽度
         * innerWidth():它能获取当前元素的内容的宽度+padding
